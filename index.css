@@ -1,0 +1,38 @@
+.item1{
+  background-color: #E28525;
+  color: #FFE9CC;
+}
+.item1 button{
+  background-color: #E28525;
+  color: white;
+}
+.item2{
+  background-color: #036068;
+  color: #CCEDEC;
+}
+.item3{
+  background-color: #00403F;
+  color: #E3F5F5;
+}
+
+.flexbox{
+  display: flex;
+  padding: 10vh 10vw;
+}
+.item1,.item2,.item3{
+  height: 60vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+button{
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px;
+  cursor: pointer;
+  width: 120px;
+  
+}
