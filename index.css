@@ -10,11 +10,18 @@
   background-color: #036068;
   color: #CCEDEC;
 }
+.item2 button {
+  background-color: #036068;
+  color: white;
+}
 .item3{
   background-color: #00403F;
   color: #E3F5F5;
 }
-
+.item3 button {
+  background-color: #00403F;
+  color: white;
+}
 .flexbox{
   display: flex;
   padding: 10vh 10vw;
@@ -35,4 +42,11 @@ button{
   cursor: pointer;
   width: 120px;
   
+}
+img{
+  width: 60px;
+}
+
+h2{
+  color: #fff;
 }
